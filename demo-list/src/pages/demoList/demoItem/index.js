@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Center, Box, Stack, Spacer } from "@chakra-ui/react";
+import { Flex, Center, Box, VStack, Spacer } from "@chakra-ui/react";
 require('./index.less');
 
 /**
@@ -7,28 +7,20 @@ require('./index.less');
  */
 export default function (props) {
 
-    const { itemText, index=0 } = props;
-
-    console.log('props == ', props)
+    const { label, value, index=0 } = props;
 
     return (
-        <div className="textColor">
-            <Flex h="19px">
-                {/* <Center w="40px">
-                    {index+1}
-                </Center> */}
-                {/* <Center axis='vertical' >
-                  {`${index+1}.   ${value}`}
-                </Center> */}
-                <Center axis='vertical' >
-                  {`${itemText}`}
-                </Center>
-                <Center w="10px">
-                </Center>
-            </Flex>
-        </div>
+        <VStack spacing='10px' w={120}>
+            <Center w="120">
+                {label}
+            </Center>
+            <Center axis='vertical' >
+                {value}
+            </Center>
+            <Center w="10px">
+            </Center>
+        </VStack>
+        
     )
-    
- 
 
 }

@@ -12,6 +12,7 @@ export default function (props) {
 
   const records = data && data.records;
 
+  //用了两个list组件, 需要额外封装一个items
   const dataX = []
   dataX.push({ items: records })
 

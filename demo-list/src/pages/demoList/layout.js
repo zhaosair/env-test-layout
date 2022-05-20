@@ -37,11 +37,9 @@ module.exports = {
     children: [
       {
         presenter: {
-          xname: 'Flexbox',
+          xname: 'Gridbox',
           props: {
-            align: 'start',
-            direction: 'column',
-            flexWidth: 'auto-full'
+            columns: 8
           },
           // 方法 一 gateway 绑定组件需要用的字段并赋值 =================
           presenter: {
@@ -55,7 +53,8 @@ module.exports = {
                   xname: 'Binding',
                   props: {
                     binding: {
-                      modelLabel: 'itemText'
+                      modelLabel: 'label',
+                      modelName: 'value'
                     }
                   }
                 }
