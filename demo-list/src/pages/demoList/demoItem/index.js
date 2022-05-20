@@ -10,15 +10,14 @@ export default function (props) {
     const { label, value, index=0 } = props;
 
     return (
-        <VStack spacing='10px' w={120}>
-            <Center w="120">
+        
+        <VStack  w={120} align='flex-start'>
+            <Box w="120">
                 {label}
-            </Center>
-            <Center axis='vertical' >
+            </Box>
+            <Box >
                 {value}
-            </Center>
-            <Center w="10px">
-            </Center>
+            </Box>
         </VStack>
         
     )

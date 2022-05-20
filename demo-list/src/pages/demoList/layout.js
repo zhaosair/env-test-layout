@@ -45,6 +45,7 @@ module.exports = {
           presenter: {
             xname: 'Flexbox',
             props: {
+              justify:'center'
             },
             children: [
               {
@@ -70,8 +71,10 @@ module.exports = {
             props: {
               isOnHover: true,
               margin: '0px 0px 2px 0px',
-              linewidth: 1,
-              padding: '0px'
+              linewidth: '1px',
+              padding: '10px',
+              shadow: '0 2px 5px rgba(0, 0, 0, 0.15)',
+              fill: '#E5E5E5'
             }
           },
           container: 'ItemClickList',
