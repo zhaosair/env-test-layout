@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
-import DemoList from './demoList/Sandbox';
+import StatisticsList from './statisticsList/Sandbox';
 
 export default function index (props) {
 
-  return <DemoList/>
+  return <StatisticsList/>
 
 }
