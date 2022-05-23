@@ -12,17 +12,6 @@ if (process.env.NODE_ENV == 'development') {
 //presenter
 import demoItem from '@/pages/demoList/demoItem';
 
-//indicator
-import RightIconCheckboxSelect from '@/pages/radioDemo/indicator/RightIconCheckboxIndicator/Select';
-import RightIconCheckboxSelected from '@/pages/radioDemo/indicator/RightIconCheckboxIndicator/Selected';
-import RightIconCheckboxDefauct from '@/pages/radioDemo/indicator/RightIconCheckboxIndicator/Defauct';
-
-//presenter
-import ItemImg from '@/pages/radioDemo/presenter/ItemImg'
-import ItemTitle from '@/pages/radioDemo/presenter/ItemTitle'
-
-
-
 // NamedCartSet({
 //   Cart
 // })
@@ -31,15 +20,10 @@ import ItemTitle from '@/pages/radioDemo/presenter/ItemTitle'
 //   Wrap
 // })
 NamedIndicatorSet({
-  RightIconCheckboxSelect,
-  RightIconCheckboxSelected,
-  RightIconCheckboxDefauct
 })
 
 NamedPresenterSet({
   demoItem,
-  ItemImg,
-  ItemTitle
 })
 
 // FormItemTypeSet({
