@@ -1,10 +1,8 @@
 import React from 'react';
 
-import { AutoLayout } from 'zero-element-boot';
+import { AutoLayout } from '@/components';
 
 export default function ItemPlaceholderDemo(props) {
-
-  // const { width='100px' } = props;
 
   const config = {
     layout: {
