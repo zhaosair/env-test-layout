@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { AutoLayout } from '@/components';
+import { AutoLayout, APIContainer } from 'zero-element-boot';
 
-export default function ItemPlaceholderDemo(props) {
+export default function AutoComponentDemo(props) {
+
+  const api = '/api/detailData';
 
   const config = {
     layout: {
@@ -29,6 +31,9 @@ export default function ItemPlaceholderDemo(props) {
     ...props,
   };
 
-  return ( <AutoLayout  {...config} />)
-
+  return ( 
+    <APIContainer API={api} extend={true}>
+        <AutoLayout  {...config} />
+    </APIContainer>
+  )
 }

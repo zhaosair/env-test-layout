@@ -1,14 +1,13 @@
 import React from 'react';
+import PageCart from 'zero-element-boot/lib/components/cart/PageCart'
 
-import AutoComponentsDemo from './autoComponentsDemo';
-import APIContainerDemo from './APIContainerDemo/Sandbox';
+import AutoComponentDemo from './AutoComponentDemo';
 
 export default function index (props) {
 
-  // 例子一
-  // return <AutoComponentsDemo/>
-
-  // 例子二  通过API获取数据
-  return <APIContainerDemo/>
-
+  return (
+      <PageCart padding="20px">
+        <AutoComponentDemo width="100px" />
+      </PageCart>
+  )
 }
