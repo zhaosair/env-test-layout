@@ -6,4 +6,5 @@
 | remote-list    |   列表组件,通过mock获取列表数据 |
 | statistics-list    |   统计组件 |
 | auto-component-demo    |   布局组件 |
+| table-example    |   表格例子 |
 
