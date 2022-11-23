@@ -1,9 +1,9 @@
 import React from 'react';
 
-import RadioDemo from './radioDemo/Sandbox';
+import Sandbox from './Demo/Sandbox';
 
 export default function index (props) {
 
-  return <RadioDemo/>
+  return <Sandbox/>
 
 }

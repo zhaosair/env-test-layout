@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+yarn.lock
+src/.umi/
+src/.umi-production/
+dist/
+yarn-error.log
+dist.zip
+zero-element-boot/
+zero-element-boot-plugin-theme/
+

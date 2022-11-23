@@ -8,7 +8,7 @@ import bindFiles from './gateway.json'
 
 export default function (props) {
 
-    const api = '/api/radioData';
+    const api = '/api/selectListData';
 
     const [ data ] = useTokenRequest({api, bindFiles});
 

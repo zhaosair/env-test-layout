@@ -18,7 +18,7 @@ module.exports = {
     }
   },
   // navigation: '/CheckboxPageDemo',
-  container: 'SelectionList',
+  container: 'SelectList',
   presenter: {
     xname: 'Flexbox',
     props: {

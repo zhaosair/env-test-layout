@@ -1,5 +1,5 @@
 export default {
-  'GET /api/radioData': {
+  'GET /api/selectListData': {
     "code": 200,
     "data": [
       {

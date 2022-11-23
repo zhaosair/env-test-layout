@@ -10,15 +10,13 @@ if (process.env.NODE_ENV == 'development') {
 }
 
 //indicator
-import RightIconRadioHoverIndicator from '@/pages/radioDemo/indicator/RightIconRadioHoverIndicator/Select';
-import RightIconRadioSelectedIndicator from '@/pages/radioDemo/indicator/RightIconRadioHoverIndicator/Selected';
-import RightIconRadioDefauct from '@/pages/radioDemo/indicator/RightIconRadioHoverIndicator/Defauct';
+import RightIconRadioHoverIndicator from '@/pages/Demo/indicator/RightIconRadioHoverIndicator/Select';
+import RightIconRadioSelectedIndicator from '@/pages/Demo/indicator/RightIconRadioHoverIndicator/Selected';
+import RightIconRadioDefauct from '@/pages/Demo/indicator/RightIconRadioHoverIndicator/Defauct';
 
 //presenter
-import ItemImg from '@/pages/radioDemo/presenter/ItemImg'
-import ItemTitle from '@/pages/radioDemo/presenter/ItemTitle'
-
-
+import ItemImg from '@/pages/Demo/presenter/ItemImg'
+import ItemTitle from '@/pages/Demo/presenter/ItemTitle'
 
 // NamedCartSet({
 //   Cart
@@ -42,3 +40,4 @@ NamedPresenterSet({
 //   "input": InputCompx,
 //   "select-fetch": SelectFetch
 // })
+
